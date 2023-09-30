@@ -1,10 +1,10 @@
-package com.example.umc1.service;
+package com.example.umc1.domain.member.service;
 
-import com.example.umc1.dto.MemberRequestDto;
-import com.example.umc1.dto.MemberResponseDto;
-import com.example.umc1.dto.MemberUpdateRequestDto;
-import com.example.umc1.entity.Member;
-import com.example.umc1.repository.MemberRepository;
+import com.example.umc1.domain.member.dto.MemberRequestDto;
+import com.example.umc1.domain.member.dto.MemberResponseDto;
+import com.example.umc1.domain.member.dto.MemberUpdateRequestDto;
+import com.example.umc1.domain.member.entity.Member;
+import com.example.umc1.domain.member.repository.MemberRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

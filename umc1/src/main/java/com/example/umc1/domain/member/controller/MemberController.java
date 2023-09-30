@@ -1,12 +1,10 @@
-package com.example.umc1.controller;
+package com.example.umc1.domain.member.controller;
 
-import com.example.umc1.dto.MemberRequestDto;
-import com.example.umc1.dto.MemberUpdateRequestDto;
-import com.example.umc1.repository.MemberRepository;
-import com.example.umc1.service.MemberService;
+import com.example.umc1.domain.member.dto.MemberRequestDto;
+import com.example.umc1.domain.member.dto.MemberUpdateRequestDto;
+import com.example.umc1.domain.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

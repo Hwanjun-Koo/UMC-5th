@@ -1,6 +1,6 @@
-package com.example.umc1.dto;
+package com.example.umc1.domain.member.dto;
 
-import com.example.umc1.entity.Member;
+import com.example.umc1.domain.member.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

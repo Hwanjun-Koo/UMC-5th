@@ -1,6 +1,6 @@
-package com.example.umc1.entity;
+package com.example.umc1.domain.member.entity;
 
-import com.example.umc1.dto.MemberUpdateRequestDto;
+import com.example.umc1.domain.member.dto.MemberUpdateRequestDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
