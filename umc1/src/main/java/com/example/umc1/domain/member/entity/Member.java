@@ -28,7 +28,8 @@ public class Member {
     private String phoneNumber;
     @Column(name = "BIRTHDAY")
     private String birthday;
-    @OneToMany(mappedBy = "member", cascade = CascadeType.ALL)
+    @Builder.Default
+    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL)
     private List<Post> posts = new ArrayList<>();
 
     public void updateMember(MemberUpdateRequestDto requestDto) {
